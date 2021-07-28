@@ -548,5 +548,8 @@ footer .footer-socials i:hover{
     section.contact .input-wrap{
         grid-template-columns: 1fr;
     }
+    section.blog .card-wrapper .card .card-title{
+        padding: 1rem 0;
+    }
     
 }
