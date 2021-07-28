@@ -378,25 +378,66 @@ footer .footer-socials i:hover{
     color: var(--primary);
 }
 
-
-
- /* @media (min-width:576px){
-    .container{
-        max-width: 540px;
+/* media query start  */
+/* media query start  */
+@media (min-width:768px) and (max-width:1152px){
+    header .container #main-nav{
+        display: none;
     }
+    header .container .header-belly{
+        /* flex-direction: column; */
+    }
+    header .container .header-belly .left img{
+        width: 50%;
+    }
+    header .container .header-belly .right{
+        padding-top: 1.5rem;
+    }
+    header .container .header-belly .right h1{
+        font-size: 32px;
+        margin-bottom: 1rem;
+    }
+    header .container .header-belly .right h4{
+        font-size: 18px;
+    }
+    header .container .header-belly .right p{
+        margin-bottom: 1rem;
+        line-height: 1.5;
+    }
+    header .container .header-belly .right .btn{
+        padding:10px 1rem;
+    }
+    section{
+        padding:3rem 0;
+    }
+    section.about .flex-1 .about-me-img{
+        width: 80%;
+        height: 80%;
+    }
+    section.about p{
+        line-height: 1.5;
+        margin-bottom: 1rem;
+    }
+    section.about .container h1{
+        margin-bottom: 8px;
+    }
+    section.about .container h3{
+        margin-bottom: 8px;
+    }
+    section.services .card-wrapper{
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 1.5rem;
+        grid-row-gap: 6rem;
+    }
+    section.services .card-wrapper .card img{
+        width: 98px;
+    }
+    section.work p{
+        margin-bottom: 4rem;
+    }
+    section.work .card-wrapper{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 2rem;
+    }
+      
 }
-@media (min-width:768px){
-    .container{
-        max-width: 720px;
-    }
-}
-@media (min-width:992px){
-    .container{
-        max-width: 960px;
-    }
-}
-@media (min-width:1200px){
-    .container{
-        max-width: 1152px;
-    }
-} */
