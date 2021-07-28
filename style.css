@@ -551,5 +551,8 @@ footer .footer-socials i:hover{
     section.blog .card-wrapper .card .card-title{
         padding: 1rem 0;
     }
+    section.blog .card-wrapper{
+        grid-column-gap: 0rem;
+    }
     
 }
