@@ -465,7 +465,7 @@ footer .footer-socials i:hover{
         display: none;
     }
     header .container .header-belly .left img{
-        width: 260px;
+        width: 230px;
     }
     .header-belly .right h1{
         font-size: 3rem;
@@ -554,5 +554,6 @@ footer .footer-socials i:hover{
     section.blog .card-wrapper{
         grid-column-gap: 0rem;
     }
+
     
 }
