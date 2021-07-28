@@ -286,9 +286,10 @@ section.blog .card-wrapper{
     grid-column-gap: 2rem;
 }
 section.blog .card-wrapper .card{
-    background: cyan;
+    background-color: cyan;
     border-radius: 20px;
     width: 430px;
+    margin: 0 auto;
 
 }
 section.blog .card-wrapper .card .img-wrapper img{
