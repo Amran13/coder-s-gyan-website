@@ -286,19 +286,25 @@ section.blog .card-wrapper{
     grid-column-gap: 2rem;
 }
 section.blog .card-wrapper .card{
-    background-color: cyan;
+    background-color: var(--pure);
     border-radius: 20px;
-    width: 430px;
+    width: 300px;
     margin: 0 auto;
 
 }
-section.blog .card-wrapper .card .img-wrapper img{
+section.blog .card-wrapper .card .image-wrapper{
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    /* object-fit: cover; */
+}
+section.blog .card-wrapper .card .image-wrapper img{
+    border-radius: 20px;
+    margin: 10px;
+    
 }
 section.blog .card-wrapper .card .card-title{
-    padding: 1rem;
+    margin: 10px;
 }
 section.blog .card-wrapper .card .card-title{
     font-weight: 500;
@@ -559,4 +565,8 @@ footer .footer-socials i:hover{
     }
 
     
+}
+
+main{
+    overflow-x: hidden;
 }
