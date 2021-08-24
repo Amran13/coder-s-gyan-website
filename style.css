@@ -136,8 +136,16 @@ section.about a i{
 }
 section.about a i:hover{
     color: var(--primary);
+    animation: pop 2s linear;
 }
 
+
+@keyframes pop {
+   50%  
+   {
+       transform: scale(2);
+    }
+}
 /* Service Section start */
 /* Service Section  start */
 section.services{
@@ -343,6 +351,12 @@ section.contact .card-wrapper .card{
 }
 section.contact .card-wrapper .card i{
     margin-bottom: 3rem;
+}
+
+section.contact .card-wrapper .card i:hover
+{
+    animation: pop 1s linear ;
+    /* margin-top: -1px; */
 }
 section.contact .card-wrapper .card h1{
     font-weight: 500;
