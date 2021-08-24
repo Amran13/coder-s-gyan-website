@@ -133,19 +133,19 @@ section.about a i{
     color: var(--dark);
     margin-right: 1rem;
     transition: .3s ease;
-    animation: bounce 1s linear infinite;
 }
 section.about a i:hover{
     color: var(--primary);
+    animation: pop 2s linear;
 }
 
-@keyframes bounce {
-        from, to { transform: scale(1, 1); }
-        25% { transform: scale(0.9, 1.1); }
-        50% { transform: scale(1.1, 0.9); }
-        75% { transform: scale(0.95, 1.05); }
-}
 
+@keyframes pop {
+   50%  
+   {
+       transform: scale(2);
+    }
+}
 /* Service Section start */
 /* Service Section  start */
 section.services{
@@ -355,7 +355,8 @@ section.contact .card-wrapper .card i{
 
 section.contact .card-wrapper .card i:hover
 {
-    animation: bounce 1s linear ;
+    animation: pop 1s linear ;
+    /* margin-top: -1px; */
 }
 section.contact .card-wrapper .card h1{
     font-weight: 500;
